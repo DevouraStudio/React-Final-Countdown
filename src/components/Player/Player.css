@@ -1,0 +1,48 @@
+#player {
+    text-align: center;
+  }
+  
+  #player h2 {
+    color: #54a399;
+  }
+  
+  #player p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #player form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #player input {
+    display: inline;
+    font: inherit;
+    border: 1px solid #54a399;
+    background-color: #192f2b;
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 0.25rem;
+    color: #d1f0ec;
+  }
+  
+  #player button {
+    display: inline;
+    cursor: pointer;
+    background-color: #54a399;
+    border: 1px solid #54a399;
+    padding: 0.4rem 1rem;
+    color: #061e1a;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  #player button:hover {
+    background-color: #3c8379;
+    border-color: #3c8379;
+  }
